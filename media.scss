@@ -1,0 +1,16 @@
+@media screen and (max-width: $breakpoint-md) {
+  .container {
+    max-width: 80%;
+  }
+
+  .products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+  }
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+  .products {
+    display: block;
+  }
+}
